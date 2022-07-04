@@ -1,0 +1,80 @@
+body{
+    height: 2000px;
+    text-align: center;
+}
+div.block1{
+    position: fixed;
+    z-index: 1;
+}
+.emblem{
+    margin-left: 280px;
+    width: 60px;
+    height: 50px;
+}
+ ul.first{
+   display: inline-block;
+    height: 50px;
+    font-size: 17px;
+    background-color: rgba(160, 152, 141, 0.75);
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 950px;
+}
+li{
+float: left;
+display: block;
+text-align:center;
+padding:15px;
+text-decoration: none;
+}
+div.block2{
+display: block;
+position: relative;
+top:150px;
+}
+span{
+display: inline-block;
+margin: 0 25px  ;
+}
+.prodact{
+width: 200px;
+height: 300px;
+border-bottom: 1px solid rgb(42, 18, 147);
+border-radius:  5px;
+margin-bottom:20px ;
+}
+.pstrong{
+font-weight: bold;
+font-style: italic;
+}
+.ptextstyle{
+text-decoration: line-through;
+}
+.p4color{
+background-color: rgb(188, 52, 59);
+color: white;
+}
+button{
+width: 150px;
+height: 40px;
+font-size: 15px;
+margin:25px;
+}
+div.block3{
+text-align: justify;
+margin-left:280px;
+margin-top: 180px;
+width: 950px;
+line-height: 2;
+}
+div.block4{
+border-top:1px solid rgba(0, 0, 0, 0.317) ;
+margin: 80px 150px;
+}
+div.block5{
+position: fixed;
+bottom: 40px;
+right:80px;
+}

@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>task 33</title>
+        <link rel="stylesheet" href="task33.css">
+    </head>
+    <body>
+        <h1> Review</h1>
+        <form action="" method="post">
+            <label for="fname">First name:</label>
+            <br>
+            <input type="text" id="fname" name="fname" placeholder="Maria" required>
+            <br><br>
+            <label for="lname">Last name:</label>
+            <br>
+            <input type="text" id="lname" name="lname" placeholder="Stefaniuk" required>
+            <br><br>
+            <lable for="age">Age:</lable>
+            <br>
+            <input type="number" name="age" id="age" min="10" max="90">
+            <br><br>
+            <fieldset>
+                <legend>Gender:</legend>
+                <label>
+                    <input type="radio" name="gender" value="male">Man
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">Woman
+                </label>
+            </fieldset><br>
+            <label>Email:</label><br>
+                <input type="email" name="email">
+            <br><br>
+            <label for="place">Choose restaurant:</label><br>
+            <select name="place" id="place">
+                <option value="1">Restaurant 1</option>
+                <option value="2">Restaurant 2</option>
+                <option value="3">Restaurant 3</option>
+            </select>
+            <br><br>
+            <fieldset>
+                <legend>What did you like?</legend>
+                <label> 
+                    <input type="checkbox" name="place"> Place
+                </label>
+                <label> 
+                    <input type="checkbox" name="people"> People
+                </label>
+                <label> 
+                    <input type="checkbox" name="food"> Food
+                </label>
+            </fieldset>
+            <br><br>
+            <textarea name="comment" placeholder="Comments"></textarea>
+            <br><br>
+            <button type="submit">Send</button>            
+        </form>
+    </body>
+</html>
